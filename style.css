@@ -1,82 +1,110 @@
-h1{
-	font-family: Comic Sans ,Cursive;
-	text-align: center;
+.navbar{
+    background-color: orange !important;
+
+
+}
+.navbar .navbar-brand{
+    color: #fff;
+}
+
+
+.navbar .navbar-nav li a{
+    color: black !important;
+
+
+}
+.navbar-toggler{
+    color: black !important;
+}
+#nav-list {
+    background-color: orange !important;
 
 }
 
-#box{
-	padding: 20px;
-	margin: 50px;
-	position: relative;
-	top: 10px;
-	left: 10px;
-	
+#nav-list a {
+    /*text-align: center;*/
+    font-weight: bolder !important;
+    color: #282828 !important;
+    font-size: 1.2em !important;
+}
 
+#nav-list a:hover {
+    color: #202020 !important;
+    background-color: #fce29e !important;
+}
+
+/*.....................................................*/
+#box{
+    padding: 20px;
+    margin: 50px;
+    position: relative;
+    top: 10px;
+    
+    right: 40px;
 }
 *{
 box-sizing: border-box;
 }
 section>h2{
-
+font-size: 20px;
 float: right;
 border:3px solid black;
 background-color: pink;
 position:relative;
 left: 12px;
 bottom: 30px;
+top:-10px;
 padding: 5px;
 }
 
 section.block1>h2{
-	background-color: pink;
+    background-color: pink;
 }
 section.block2>h2{
-	background-color: orange;
+    background-color: orange;
 }
 section.block3>h2{
-	background-color: green;
+    background-color: green;
 }
 p{
-	
-	display: inline-block;
-	text-align: inherit;
-	position: relative;
-	bottom: 58px;
+    
+    display: inline-block;
+    text-align: inherit;
+    position: relative;
+    bottom: 10px;
+    
+    
 }
-.block1{
-	padding: 10px;
-	margin: 40px;
-	border : 3px solid black;
-	display: inline-block;
-	background-color: grey;
-	width: 300px;
-	height: 180px;
-	
-	
+.block1 {
+    padding: 10px;
+    margin: 40px;
+    border : 3px solid black;
+    display: inline-block;
+    background-color: grey;
+    width: 350px;
+    height: 200px;
+    
+    
 }
 .block2{
-	padding: 10px;
-	margin: 40px;
-	border : 3px solid black;
-	display: inline-block;
-	background-color: grey;
-	width: 300px;
-	height: 180px;
+    padding: 10px;
+    margin: 40px;
+    border : 3px solid black;
+    display: inline-block;
+    background-color: grey;
+    width: 350px;
+    height: 200px;
 }
 .block3{
-	padding: 10px;
-	margin: 40px;
-	border : 3px solid black;
-	display: inline-block;
-	background-color: grey;
-	width: 300px;
-	height: 180px;
-	
-	
-}
-
-#box{
-	width: 100%;
+    padding: 10px;
+    margin: 40px;
+    border : 3px solid black;
+    display: inline-block;
+    background-color: grey;
+    width: 350px;
+    height: 200px;
+    
+    
 }
 /*...........................For desktop............*/
 @media (min-width: 991px){
@@ -119,7 +147,7 @@ p{
     .col-lg-12 {
         width: 100%;
     }
-	
+    
 
 }
 /*...................For Tablet.....................*/
@@ -209,5 +237,4 @@ p{
         width: 100%;
     }
 }
-
 
